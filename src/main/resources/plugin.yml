@@ -1,0 +1,12 @@
+name: VainTournaments
+version: '${project.version}'
+main: me.vaindev.vaintournaments.VainTournaments
+api-version: 1.19
+authors: [ Vaindev ]
+description: Tournaments plugin.
+commands:
+  tournament:
+    description: General Bounties Commands
+    usage: /<command>
+    permission: tournament.staff
+    aliases: []
